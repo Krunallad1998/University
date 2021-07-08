@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#F1F1DD"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/uni_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#A80638CD"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="" />
+    <TextView
+        android:id="@+id/uni_domain1"
+        android:layout_below="@+id/uni_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/domain" />
+
+    <TextView
+        android:id="@+id/uni_domain"
+        android:layout_below="@+id/uni_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/uni_domain1"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:text="" />
+
+
+
+    <TextView
+        android:id="@+id/uni_webpages1"
+        android:layout_below="@+id/uni_domain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/web_page" />
+
+    <TextView
+        android:id="@+id/uni_webpages"
+        android:layout_below="@+id/uni_domain"
+        android:layout_toEndOf="@+id/uni_webpages1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/uni_codepath1"
+        android:layout_below="@+id/uni_webpages1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/alphacode" />
+
+
+    <TextView
+        android:id="@+id/uni_codepath"
+        android:layout_below="@+id/uni_webpages"
+        android:layout_toEndOf="@+id/uni_codepath1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/uni_state1"
+        android:layout_below="@+id/uni_codepath1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/state" />
+
+    <TextView
+        android:id="@+id/uni_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uni_codepath1"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/uni_state1"
+        android:text=""
+        android:textColor="#717275"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/uni_country1"
+        android:layout_below="@+id/uni_state1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/country" />
+
+    <TextView
+        android:id="@+id/uni_country"
+        android:layout_below="@+id/uni_state1"
+        android:layout_toEndOf="@+id/uni_country1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#717275"
+        android:text=""/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">University</string>
+    <string name="domain">Domain</string>
+    <string name="web_page">Web Page</string>
+    <string name="university">University</string>
+    <string name="alphacode">AlphaCode</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+</resources>
